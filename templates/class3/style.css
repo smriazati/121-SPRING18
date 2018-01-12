@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body {
+	background: #eaeaea;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+}
+
+a {
+	color: #6300de; /* purple */
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+
+/* layout */
+
+body {
+	width: 100%;
+}
+
+header, footer {
+	width: 50%;
+	margin: 0 auto; /* center something with a specific width < 100% */
+}
+
+header {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.bio {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.bio-copy {
+	float:left;
+	width: 50%;
+	padding-right: 3%;
+}
+
+.bio-image {
+	float: right;
+	width: 47%;
+}
